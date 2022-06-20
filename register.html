@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="The latest sample news, Sample News">
+	<meta name="subject" content="The latest sample news, Sample News">
+	<meta name="keywords" content="Sample, News, Latest, Sport, Travel, Culture">
+	<meta name="author" content="Sample News">
+	<meta name="language" content="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>Tin tức | Đăng ký</title>
+	<link rel="icon" href="img/icon.png" type="image/x-icon" />
+</head>
+
+<body>
+	<header>
+		<h1>Đăng ký</h1>
+	</header>
+
+	<nav>
+		<a href="index.html"><i class="fas fa-home"></i> Trang chủ</a>
+		<a href="news.html"><i class="fas fa-newspaper"></i> Bài viết</a>
+		<a href="sports.html"><i class="fas fa-futbol"></i> Thể thao</a>
+		<a href="travel.html"><i class="fas fa-suitcase-rolling"></i> Du lịch</a>
+		<a href="culture.html"><i class="fas fa-hotel"></i> Văn hóa</a>
+		<a href="sign-in.html"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a>
+		<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+			<input type="text" name="q" class="placeholder" placeholder="Tìm kiếm...">
+			<button type="submit"><img width="20" height="20" src="/img/iconSearch.png" /></i></button>
+		</form>
+	</nav>
+
+	<div class="main main-background">
+		<div class="left-hand-side register-section">
+			<section>
+				<h2>Chào mừng bạn đến với trang của chúng tôi</h2>
+				<br>
+				<h3>Vui lòng nhập đầy đủ thông tin để đăng ký.</h3>
+			</section>
+			<article>
+				<form action="thanks.html" method="post" id="form" enctype="multipart/form-data">
+					<input type="text" id="name" name="name" placeholder="Họ tên" required autofocus><br>
+					<br>
+					<input type="text" id="username" name="username" placeholder="Tên tài khoản" required><br>
+					<br>
+					<input type="password" id="password" name="password" placeholder="Mật khẩu" required><br>
+					<br>
+					<input type="date" id="birthday" name="Ngày sinh" required><br>
+					<br>
+					<input type="tel" id="telephone" name="telephone" placeholder="Số điện thoại (11 số)"
+						pattern="[0-9]{11}" required><br>
+					<input type="radio" name="sex" value="male">Nam
+					<input type="radio" name="sex" value="female" checked>Nữ<br>
+					<textarea rows="4" cols="30" name="message" id="message" form="form" placeholder="About yourself"
+						required></textarea><br>
+					<label for="ppFile">Ảnh đại diện: </label>
+					<input type="file" id="ppFile" name="filename"><br>
+					<br>
+					Sở thích của bạn: <br>
+					<div>
+						<p><input type="checkbox" name="cars" value="cars">Ô tô và Xe cộ
+							<input type="checkbox" name="comedy" value="comedy">Phim hài</p>
+						<p><input type="checkbox" name="education" value="education">Giáo dục
+							<input type="checkbox" name="films" value="films">Phim và Hoạt hình</p>
+						<p><input type="checkbox" name="gaming" value="gaming">Chơi game
+							<input type="checkbox" name="music" value="music">Âm nhạc</p>
+						<p><input type="checkbox" name="politics" value="politics">Chính trị
+							<input type="checkbox" name="pets" value="pets">Vật nuôi và động vật</p>
+						<p><input type="checkbox" name="science" value="science">Khoa học và Công nghệ
+							<input type="checkbox" name="sports" value="sports">Thể thao</p>
+					</div>
+					<br>
+					<button type="submit">Đăng ký</button>
+					<input type="reset" value="Làm mới">
+				</form>
+			</article>
+		</div>
+	</div>
+
+	<footer>
+		<ul>
+			<li>
+				<h3>Về chúng tôi</h3>
+				<p>Nhóm 02 lập trình web</p>
+			</li>
+			<li>
+				<h3>Liên hệ</h3>
+				<p>SĐT: 0936739044</p>
+				<p>E-mail: thanhthanh1996xxx@gmail.com</p>
+			</li>
+		</ul>
+	</footer>
+
+</body>
+
+</html>
